@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Comfortaa&family=Gemunu+Libre&family=Rubik+Bubbles&family=Rubik:wght@300&family=Signika+Negative:wght@300&display=swap");
+* {
+  font-family: "Comfortaa", cursive;
+  /* font-family: "Rubik", sans-serif; */
+}
+body {
+  height: 100%;
+  /* background: red; */
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header,
+main {
+  font-size: 3vw;
+  font-weight: 700;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  height: 100%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 8vw;
+  margin: 0;
+  /* font-size: 6rem; */
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  object-fit: contain;
+  width: 36%;
+}
+
+header.dark {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+main.dark {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+.big-content {
+  /* background: rebeccapurple; */
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.title-content {
+  height: 20%;
+}
+
+.section-content {
+  height: 80%;
+}
+
+@media only screen and (max-width: 688px) {
+  main img {
+    display: contents;
+  }
+}
